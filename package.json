@@ -1,0 +1,17 @@
+{
+  "name": "@pipeworx/mcp-nobel",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "MCP server for Nobel Prize data — laureates and prizes by year and category",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "nobel"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
