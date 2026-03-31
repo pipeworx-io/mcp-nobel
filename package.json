@@ -1,16 +1,19 @@
 {
   "name": "@pipeworx/mcp-nobel",
   "version": "0.1.0",
+  "description": "Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)",
   "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nobel"],
   "license": "MIT",
-  "description": "MCP server for Nobel Prize data — laureates and prizes by year and category",
-  "keywords": [
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "pipeworx",
-    "nobel"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-nobel"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "typescript": "^5.7.0"
   }

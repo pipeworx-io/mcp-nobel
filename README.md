@@ -1,13 +1,13 @@
-# @pipeworx/mcp-nobel
+# mcp-nobel
 
-MCP server for Nobel Prize data — laureates and prizes by year and category. Wraps the [Nobel Prize API v2](https://www.nobelprize.org/about/developer-zone-2/) (free, no auth required).
+Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_laureates` | Search Nobel Prize laureates by name and/or category |
-| `get_prizes_by_year` | Get all Nobel Prizes awarded in a specific year |
 
 ## Quick Start
 
@@ -23,7 +23,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use nobel

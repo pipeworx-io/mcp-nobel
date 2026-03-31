@@ -1,11 +1,3 @@
-/**
- * Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)
- *
- * Tools:
- * - search_laureates: search Nobel Prize laureates by name or category
- * - get_prizes_by_year: list all prizes awarded in a given year
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -20,6 +12,15 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)
+ *
+ * Tools:
+ * - search_laureates: search Nobel Prize laureates by name or category
+ * - get_prizes_by_year: list all prizes awarded in a given year
+ */
+
 
 const BASE_URL = 'https://api.nobelprize.org/2.1';
 
