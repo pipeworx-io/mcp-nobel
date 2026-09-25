@@ -2,20 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/nobel",
   "title": "Nobel",
-  "description": "Nobel MCP \u2014 wraps the Nobel Prize API v2 (free, no auth)",
-  "version": "0.1.0",
+  "description": "Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/nobel",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-nobel",
     "source": "github"
   },
-  "packages": [
-    {
-      "registryType": "npm",
-      "identifier": "@pipeworx/mcp-nobel",
-      "version": "0.1.0"
-    }
-  ],
   "remotes": [
     {
       "type": "streamable-http",
