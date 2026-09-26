@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/nobel",
   "title": "Nobel",
   "description": "Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/nobel",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-nobel",

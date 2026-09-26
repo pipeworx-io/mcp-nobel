@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nobel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b591d52db31e22207e644be6eaf016e8a64c18dceb07cbd2e970095dea30c02c",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-ba78aacbe85881c9b4d9cfd6d6df3d6232c4714eacbce3d4b36e15187ca30c15",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
