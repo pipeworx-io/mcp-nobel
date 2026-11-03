@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nobel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Nobel MCP — wraps the Nobel Prize API v2 (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nobel",
     "gatewaySlug": "nobel",
-    "sourceHash": "v1-a0b01f8c8f61a47be79eea8bfe8909e1f8f180651e9b8ac89577b11561cbd9ff",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-99a3e02578a29a11e480de3eae67ebb9d4b6e949564e46faff75ad2d200bbe2b",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
